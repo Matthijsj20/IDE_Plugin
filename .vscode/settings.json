@@ -1,0 +1,49 @@
+{
+    //Themes
+    //none
+    //Python
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8",
+        "editor.formatOnSave": true
+    },
+    //C/C++
+    //none
+    //Docker
+    //none
+    //Other
+    "cSpell.enabled": true,
+    "cSpell.language": "en-GB",
+    "cSpell.dictionaries": [
+        "wordsEnGb"
+    ],
+    "cSpell.allowCompoundWords": true,
+    "cSpell.words": [],
+    "cSpell.ignoreWords": [],
+    "cSpell.languageSettings": [
+        {
+            "languageId": "python",
+            "enabled": true
+        },
+        {
+            "languageId": "cpp",
+            "enabled": true
+        },
+        {
+            "languageId": "c",
+            "enabled": true
+        },
+        {
+            "languageId": "cmake",
+            "enabled": true
+        },
+        {
+            "languageId": "makefile",
+            "enabled": true
+        },
+        {
+            "languageId": "dockerfile",
+            "enabled": true
+        }
+    ],
+    "errorLens.delay": 1000 // 1 sec
+}
