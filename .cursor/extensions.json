@@ -3,7 +3,6 @@
         //Themes
         "ms-vscode.cpptools-themes",
         "johnpapa.winteriscoming",
-        "codestackr.codestackr-theme",
         "hoovercj.vscode-power-mode",
         //Python
         "ms-python.autopep8",
@@ -11,20 +10,14 @@
         "ms-python.debugpy",
         "ms-python.vscode-python-envs",
         //C/C++
-        "ms-vscode.cpptools",
-        "ms-vscode.cpptools-extension-pack",
-        "twxs.cmake",
+        "anysphere.cpptools",
         "ms-vscode.cmake-tools",
         //Docker
         "ms-azuretools.vscode-docker",
         "ms-azuretools.vscode-containers",
         //Other
-        "ms-vscode-remote.remote-wsl",
-        "platformio.platformio-ide",
-        "ms-vscode-remote.remote-ssh",
-        "ms-vscode.remote-explorer",
-        "ms-vscode-remote.remote-ssh-edit",
-        "ms-vscode-remote.vscode-remote-extensionpack",
+        "anysphere.remote-wsl",
+        "anysphere.remote-ssh",
         "eamodio.gitlens",
         "streetsidesoftware.code-spell-checker",
         "streetsidesoftware.code-spell-checker-british-english",
