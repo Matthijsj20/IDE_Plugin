@@ -8,9 +8,9 @@
         "ms-python.autopep8",
         "ms-python.python",
         "ms-python.debugpy",
-        "ms-python.vscode-python-envs",
         //C/C++
         "anysphere.cpptools",
+        "twxs.cmake",
         "ms-vscode.cmake-tools",
         //Docker
         "ms-azuretools.vscode-docker",
@@ -24,6 +24,8 @@
         "usernamehw.errorlens",
         "pkief.material-icon-theme",
         "ritwickdey.liveserver",
-        "alefragnani.bookmarks"
+        "alefragnani.bookmarks",
+        "hediet.vscode-drawio",
+        "jebbs.plantuml"
     ]
 }

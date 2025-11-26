@@ -31,6 +31,8 @@
         "usernamehw.errorlens",
         "pkief.material-icon-theme",
         "ritwickdey.liveserver",
-        "alefragnani.bookmarks"
+        "alefragnani.bookmarks",
+        "hediet.vscode-drawio",
+        "jebbs.plantuml"
     ]
 }
