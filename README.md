@@ -1,36 +1,41 @@
-This file will recommend to install the following pluggins. Settings.json contains some settings related to these plugins
-
-//Themes
-- C/C++ Themes
-- Winter is coming
-- codeSTACKr
+This file will recommend to install the following plugins. Settings.json contains some settings related to these plugins
 
 //Python
 - autopep8, formatter python
 - Python
-- Python debugger
+- Python Debugger
+- Pylance
+- Python Environments
 
-//C++
+//C/C++
 - C/C++
-- C/C++ extension pack
+- C/C++ DevTools
+- clangd
+- CMake Tools
 - CMake
-- Cmake tools
+- PlatformIO
 
 //Docker
-- Container tools
 - Docker
-- Docker explorer
+- Container Tools
 
-
-//Other
-- PlatformIO
+//Remote
+- Dev Containers
+- WSL
 - Remote SSH
 - Remote SSH: Editing Configuration files
 - Remote Explorer
+
+//Other
+- Claude Code
+- Claude Code Meter
 - GitLens
 - Code Spell Checker
+- Code Spell Checker: British English
 - Error Lens
-- Material Icon
-- Live server
-- Github copilot chat
-- Github copilot chat
+- Live Server
+- Bookmarks
+- Draw.io Integration
+- PlantUML
+- Number Peeker
+- Power Mode
