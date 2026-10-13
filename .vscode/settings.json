@@ -14,7 +14,13 @@
     "cSpell.enabled": true,
     "cSpell.language": "en-GB",
     "cSpell.dictionaries": [
-        "wordsEnGb"
+        "en-gb"
+    ],
+    // US spellings are accepted by the programming dictionaries (cpp, python, softwareTerms);
+    // this generated config flags them so only UK English passes. Regenerate with
+    // `python3 .cspell/generate_us_forbidden.py`.
+    "cSpell.import": [
+        "${workspaceFolder:smartassenergy}/.cspell/uk-english.json"
     ],
     "cSpell.allowCompoundWords": true,
     "cSpell.words": [],
@@ -45,5 +51,30 @@
             "enabled": true
         }
     ],
-    "errorLens.delay": 1000 // 1 sec
+    "errorLens.delay": 1000, // 1 sec
+    //plantuml
+    "plantuml.server": "http://127.0.0.1:8080",
+    "plantuml.render": "PlantUMLServer",
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:smartassenergy}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    },
+
+    "terminal.integrated.defaultProfile.osx": "bash",
+    "terminal.integrated.profiles.osx": {
+      "bash": { "path": "/opt/homebrew/bin/bash" }
+    },
+    "terminal.integrated.env.osx": {
+      "SHELL": "/opt/homebrew/bin/bash"
+    },
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/lcapps/compile_commands.json",
+    "C_Cpp.default.cppStandard": "c++23",
+    "C_Cpp.default.intelliSenseMode": "macos-clang-arm64",
+    "git.detectSubmodules": true,
+    "git.detectSubmodulesLimit": 10,
+    "cmake.sourceDirectory": "/Users/matthijsj20/Documents/repositories/smartassenergy/lcapps/lcshared/sdbus"
 }
